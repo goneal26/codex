@@ -10,6 +10,6 @@ All you need is Lua and Bash.
 ## Usage
 
 All `.let` files and media attachments go in the `src` folder. Running 
-`just build` (or simply `just`) will convert all of the `.let` files into HTML, 
-using the base `template.html` file and `style.css` file in the repository root
-directory.
+`source build.sh` will convert all of the `.let` files into HTML, using the 
+base `template.html` file and `style.css` file in the repository root directory.
+
